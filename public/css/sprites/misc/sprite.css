@@ -1,0 +1,227 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-misc-1010 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -337px -355px;
+  width: 30px;
+  height: 31px;
+}
+.icon-misc-1012 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -290px -394px;
+  width: 29px;
+  height: 28px;
+}
+.icon-misc-1029 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -78px -394px;
+  width: 38px;
+  height: 37px;
+}
+.icon-misc-1031 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -428px -355px;
+  width: 50px;
+  height: 15px;
+}
+.icon-misc-1033 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -367px -355px;
+  width: 61px;
+  height: 15px;
+}
+.icon-misc-1063 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: 0px 0px;
+  width: 489px;
+  height: 290px;
+}
+.icon-misc-1078 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -225px -355px;
+  width: 40px;
+  height: 35px;
+}
+.icon-misc-1081 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -154px -394px;
+  width: 38px;
+  height: 37px;
+}
+.icon-misc-1084 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -116px -394px;
+  width: 38px;
+  height: 37px;
+}
+.icon-misc-1087 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -32px -442px;
+  width: 32px;
+  height: 43px;
+}
+.icon-misc-1090 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: 0px -442px;
+  width: 32px;
+  height: 43px;
+}
+.icon-misc-1093 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -93px -355px;
+  width: 44px;
+  height: 36px;
+}
+.icon-misc-1096 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -137px -355px;
+  width: 44px;
+  height: 36px;
+}
+.icon-misc-1099 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -181px -355px;
+  width: 44px;
+  height: 36px;
+}
+.icon-misc-1102 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -49px -355px;
+  width: 44px;
+  height: 36px;
+}
+.icon-misc-1105 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -400px -290px;
+  width: 49px;
+  height: 39px;
+}
+.icon-misc-1108 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: 0px -355px;
+  width: 49px;
+  height: 39px;
+}
+.icon-misc-1111 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -449px -290px;
+  width: 38px;
+  height: 37px;
+}
+.icon-misc-1114 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -192px -394px;
+  width: 38px;
+  height: 37px;
+}
+.icon-misc-1117 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -39px -394px;
+  width: 39px;
+  height: 48px;
+}
+.icon-misc-1120 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: 0px -394px;
+  width: 39px;
+  height: 48px;
+}
+.icon-misc-1123 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -310px -290px;
+  width: 45px;
+  height: 48px;
+}
+.icon-misc-1126 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -355px -290px;
+  width: 45px;
+  height: 48px;
+}
+.icon-misc-1129 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -268px -290px;
+  width: 42px;
+  height: 53px;
+}
+.icon-misc-1132 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -226px -290px;
+  width: 42px;
+  height: 53px;
+}
+.icon-misc-1135 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -136px -290px;
+  width: 45px;
+  height: 53px;
+}
+.icon-misc-1138 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -181px -290px;
+  width: 45px;
+  height: 53px;
+}
+.icon-misc-1174 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -230px -394px;
+  width: 30px;
+  height: 30px;
+}
+.icon-misc-1179 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -260px -394px;
+  width: 30px;
+  height: 29px;
+}
+.icon-misc-881 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: 0px -290px;
+  width: 68px;
+  height: 65px;
+}
+.icon-misc-887 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -68px -290px;
+  width: 68px;
+  height: 65px;
+}
+.icon-misc-947 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -305px -355px;
+  width: 32px;
+  height: 32px;
+}
+.icon-misc-987 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -265px -355px;
+  width: 40px;
+  height: 35px;
+}
+.icon-misc-trans1 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -319px -394px;
+  width: 20px;
+  height: 20px;
+}
+.icon-misc-trans2 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -84px -442px;
+  width: 20px;
+  height: 30px;
+}
+.icon-misc-trans3 {
+  background-image: url(/img/misc/sprite.png);
+  background-position: -64px -442px;
+  width: 20px;
+  height: 40px;
+}

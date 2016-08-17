@@ -1,0 +1,1405 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<i class="character-home"></i>
+```
+*/
+.character-10010130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-10010240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-10010350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-10010450-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-10010550-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-10010650-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-10010750-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-10010950-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-10020130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-10020240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-10020350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-10020450-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-10020550-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-10030130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-10030230-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-10030340-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-10030430-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-10040120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-10040230-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-10040340-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-10050140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-10050240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-10050350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-10050430-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-10050540-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-10060140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-10060250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-10060330-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-10070130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-10070240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-10070350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-10080130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-10090130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-10100130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-10110130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-10120140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-10120250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-10120350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-10130120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-10140130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-10150140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-10160140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-10180130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-10190130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-10200130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-10200240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-10210120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-10230130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-10360130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-10370130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-10390130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-10430140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-10440140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-10520140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-10520250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-10660150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-10880110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-10890120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-10900110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-10910120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-10920110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-10930110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-10960110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-10990110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-11000110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-11010120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-11020110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-11030120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-11080140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-11080250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-11080266-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-11100130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-11110130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11120130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11130120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11140130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11150120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11160120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11170120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11180120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11190150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-11240130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-11300150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-11430140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-11440150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-11450140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-11520150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-18000131-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-18000241-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-18000351-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-18010132-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-18010242-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-18010352-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-18020152-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-19010130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-19020130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-19030130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-19030133-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-19030143-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-19030153-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-19030233-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-19030333-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-19040130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-19040143-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-19040153-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-19040163-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-19040243-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-19040343-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-19050153-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-19050163-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-19050173-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-19050253-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-19050353-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-19990130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1920px -896px;
+  width: 8px;
+  height: 8px;
+}
+.character-20010140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-20010250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-20010350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-20020150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-20020250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-20020350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-20020450-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-20020650-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-20030150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-20030240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-20040140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-20050140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-20050150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-20050250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-20060150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-20060250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-20180130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-20180240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-20190130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20190240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20360140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20430140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20430250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20430350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20430450-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20440140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20450130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20450240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20460130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20460240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20470130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-20470240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-20480130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-20480240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-20490130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-20490240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-20500130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-20520150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-20660150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-20670140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-20680140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-20690140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-20700140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-20710140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-20940130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-20940240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-20950120-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-20970110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-20980110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-21060110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-21070110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-21090130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-21100150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-21100250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-21100350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-21100450-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-21190150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-21200140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-21220140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-21240150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-21240250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-21250140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-21260140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-21290130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-21290150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-21390150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-21400150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-21410140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-21420140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-21460140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29000100-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29000133-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29000143-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29000153-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29000233-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29000253-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29000333-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29000353-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29020133-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29020143-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29020153-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29020233-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-29020333-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-29050130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-29060130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-29070130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-29080130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-30010150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-30520140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -768px;
+  width: 128px;
+  height: 128px;
+}
+.character-30520250-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -896px;
+  width: 128px;
+  height: 128px;
+}
+.character-30520340-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -1024px;
+  width: 128px;
+  height: 128px;
+}
+.character-30530140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -1152px;
+  width: 128px;
+  height: 128px;
+}
+.character-30530240-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-30530350-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -1408px;
+  width: 128px;
+  height: 128px;
+}
+.character-30540140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -1536px;
+  width: 128px;
+  height: 128px;
+}
+.character-30550130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -1664px;
+  width: 128px;
+  height: 128px;
+}
+.character-30560130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: 0px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-30570130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -128px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-30590130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -256px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-30600130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-30640140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -512px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-31040130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -640px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-31050110-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -768px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-31230140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -896px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-31280130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1024px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-31310150-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1152px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-39010133-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1280px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-39010143-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1408px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-39010153-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1536px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-39010233-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1664px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-39010333-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1792px -1792px;
+  width: 128px;
+  height: 128px;
+}
+.character-39090130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1920px 0px;
+  width: 128px;
+  height: 128px;
+}
+.character-39100130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1920px -128px;
+  width: 128px;
+  height: 128px;
+}
+.character-39110130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1920px -256px;
+  width: 128px;
+  height: 128px;
+}
+.character-39120130-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1920px -384px;
+  width: 128px;
+  height: 128px;
+}
+.character-41330140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1920px -512px;
+  width: 128px;
+  height: 128px;
+}
+.character-41340140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1920px -640px;
+  width: 128px;
+  height: 128px;
+}
+.character-41360140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -384px -1280px;
+  width: 128px;
+  height: 128px;
+}
+.character-41370140-thum {
+  background-image: url(/img/characters/thum/sprite.png);
+  background-position: -1920px -768px;
+  width: 128px;
+  height: 128px;
+}

@@ -1,0 +1,575 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-unit84-UI_UNIT_ICONS0001 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0002 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0003 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0004 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0005 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0006 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0007 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0008 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0009 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0010 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0011 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0012 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0013 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0014 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0015 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0016 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0017 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0018 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0021 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0022 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0023 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0024 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0025 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0026 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0027 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0028 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0029 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0030 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0031 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0032 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0033 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0034 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0035 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0036 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0037 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0038 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0041 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0042 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0043 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0044 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0045 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0046 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0047 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0048 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0049 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0050 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0051 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0052 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0053 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0054 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0055 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0056 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0057 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0058 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0061 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0062 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0063 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0064 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0065 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0066 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0067 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0068 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0069 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0070 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0071 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0072 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0073 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0074 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0075 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0076 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0077 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0078 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0094 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0095 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0096 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0097 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0098 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -328px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0099 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -410px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0100 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -492px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0101 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -574px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0102 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -656px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0103 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0104 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px -82px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0105 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px -164px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0106 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px -246px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0107 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px -328px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0108 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px -410px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0109 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px -492px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0110 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px -574px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0111 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -738px -656px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0112 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: 0px -738px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0113 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -82px -738px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0114 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -164px -738px;
+  width: 82px;
+  height: 82px;
+}
+.icon-unit84-UI_UNIT_ICONS0115 {
+  background-image: url(/img/characters/unit84/sprite.png);
+  background-position: -246px -738px;
+  width: 82px;
+  height: 82px;
+}

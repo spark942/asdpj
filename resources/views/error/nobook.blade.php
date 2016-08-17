@@ -1,0 +1,1 @@
+Le livre {{$book_id}} n'existe pas.

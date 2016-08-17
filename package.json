@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "laravel-elixir": "*",
+    "laravel-elixir-spritesmith": "^0.4.0"
+  }
+}

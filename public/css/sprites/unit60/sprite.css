@@ -1,0 +1,623 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-unit60-0001 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -240px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0002 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -422px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0003 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -62px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0004 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -62px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0005 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -122px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0006 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -122px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0007 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -122px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0008 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -122px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0009 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -120px -122px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0010 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -182px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0011 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -182px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0012 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -182px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0013 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -182px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0014 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -182px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0015 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -120px -182px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0016 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -180px -182px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0017 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -242px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0018 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -242px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0021 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -242px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0022 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -242px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0023 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -242px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0024 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -242px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0025 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -120px -242px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0026 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -180px -242px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0027 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -240px -242px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0028 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -302px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0029 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -302px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0030 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -302px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0031 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -302px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0032 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -302px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0033 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -302px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0034 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -302px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0035 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -120px -302px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0036 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -180px -302px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0037 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -240px -302px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0038 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -300px -302px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0041 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -362px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0042 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -362px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0043 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -362px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0044 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -362px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0045 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -362px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0046 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -362px -300px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0047 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -362px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0048 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -362px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0049 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -120px -362px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0050 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -180px -362px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0051 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -240px -362px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0052 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -300px -362px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0053 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -360px -362px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0054 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -422px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0055 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -422px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0056 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -62px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0057 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -422px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0058 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -422px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0061 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -422px -300px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0062 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -422px -360px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0063 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -422px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0064 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -422px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0065 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -120px -422px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0066 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -180px -422px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0067 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -240px -422px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0068 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -300px -422px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0069 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -360px -422px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0070 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -420px -422px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0071 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -482px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0072 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -482px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0073 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -482px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0074 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -482px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0075 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -482px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0076 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -482px -300px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0077 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -482px -360px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0078 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -482px -420px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0094 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0095 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0096 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -120px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0097 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -180px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0098 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -240px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0099 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -300px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0100 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -360px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0101 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -420px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0102 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -480px -482px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0103 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0104 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0105 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0106 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0107 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0108 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px -300px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0109 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px -360px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0110 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px -420px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0111 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -542px -480px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0112 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0113 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -60px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0114 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -120px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0115 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -180px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0116 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: 0px 0px;
+  width: 62px;
+  height: 62px;
+}
+.icon-unit60-0117 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -300px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0118 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -360px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0119 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -420px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0120 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -480px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0121 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -540px -542px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0122 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -602px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-unit60-0123 {
+  background-image: url(/img/unit60/sprite.png);
+  background-position: -602px -60px;
+  width: 60px;
+  height: 60px;
+}
