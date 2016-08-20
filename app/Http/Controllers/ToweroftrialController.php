@@ -79,7 +79,7 @@ class ToweroftrialController extends Controller {
     //dd($unitBook);
     $_viewdata['roundvotes'] = json_encode($this->getRoundVotes($curRound));
     if (Auth::check()) {
-      $_viewdata['myroundvotes'] = json_encode($this->getMyVotes());
+      $_viewdata['myroundvotes'] = json_encode($this->getMyVotes($curRound));
     }
     $_viewdata['unitbook_json'] = json_encode($unitBook);
     return view($_viewtype, $_viewdata);
@@ -156,7 +156,7 @@ class ToweroftrialController extends Controller {
     }
 
     $ajaxResponse['solutions'] = $this->formattedSolutions();
-    $ajaxResponse['myroundvotes'] = $this->getMyVotes();
+    $ajaxResponse['myroundvotes'] = $this->getMyVotes($round);
     $ajaxResponse['roundvotes'] = $this->getRoundVotes($this->currentRound());
     echo json_encode($ajaxResponse, JSON_NUMERIC_CHECK);
   }
@@ -185,7 +185,7 @@ class ToweroftrialController extends Controller {
 
       //update solution karma
       DB::table('tot_solutions')->where('id', $solutionID)->update(['karma' => $solution->  karma + $calculatedKarma]);
-      $ajaxResponse['myroundvotes'] = $this->getMyVotes();
+      $ajaxResponse['myroundvotes'] = $this->getMyVotes($this->currentRound());
       $ajaxResponse['roundvotes'] = $this->getRoundVotes($solution->round);
       $ajaxResponse['msg'] = 'ok';
     } else {
