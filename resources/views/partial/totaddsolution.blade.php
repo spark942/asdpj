@@ -30,7 +30,7 @@
 			<div class="row new-solution-params">
 				<div class="input-group">
 				  <span class="input-group-addon" id="basic-addon1">Note</span>
-				  <input type="text" class="form-control" placeholder="Opt: explain how it works or any required setup" aria-describedby="basic-addon1">
+				  <input type="text" class="form-control" ng-model="TotCtrl.newsolutionparams.note" placeholder="Opt: explain how it works or any required setup" aria-describedby="basic-addon1">
 				</div>
 			</div>
 			<ul class="unitteam unitteam-upper">

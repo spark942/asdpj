@@ -28,11 +28,18 @@
 
 		<!-- Floor -->
 		<span ng-repeat="floor in TotCtrl.floors" ng-cloak>
+			<!-- Floor HEADER -->
 			<h3 class="list-group-item floor-title" ng-class="{
-					'list-group-item-danger': floor.solutions.length == 0,
-					'list-group-item-warning': floor.solutions.length > 0 && floor.solutions.length <= 5,
-					'list-group-item-success': floor.solutions.length > 5}" data-toggle="collapse" href="#f@{{floor.floorn}}solutions" ng-click="toggle(floor.floorn,floor.isCollapsed)"><i style="color: #5cb85c;" class="glyphicon glyphicon-ok" aria-hidden="true" ng-if="floorCleared(floor.floorn)"></i>
-				Floor @{{floor.floorn}}<span class="label label-default floor-info" ng-if="floor.solutions.length">@{{countvote(floor.floorn)}} votes</span>
+				'list-group-item-danger': floor.solutions.length == 0,
+				'list-group-item-warning': floor.solutions.length > 0 && floor.solutions.length <= 5,
+				'list-group-item-success': floor.solutions.length > 5}" data-toggle="collapse" href="#f@{{floor.floorn}}solutions" ng-click="toggle(floor.floorn,floor.isCollapsed)">
+					<!-- Floor Cleared ICON -->
+				<i style="color: #5cb85c;" class="glyphicon glyphicon-ok" aria-hidden="true" ng-if="floorCleared(floor.floorn)"></i>
+				<!-- Floor number -->
+				Floor @{{floor.floorn}}
+				<!-- Floor:  number of votes -->
+				<span class="label label-default floor-info" ng-if="floor.solutions.length">@{{countvote(floor.floorn)}} votes</span>
+				<!-- Floor: number of solutions -->
 				<span class="label floor-info" ng-class="{
 					'label-danger': floor.solutions.length == 0,
 					'label-warning': floor.solutions.length > 0 && floor.solutions.length <= 5,
@@ -52,9 +59,10 @@
 						<!-- <span class="solution-info">votes</span> -->
 						<div class="solution-details row">
 							@if (Auth::check())
+							<!-- Logged: Show Solution points and vote options -->
 							<span class="label label-choice">@{{solution.karma | number:0}} pts</span>
 							<span class="pull-right">
-								<!-- Vote buttons -->
+								<!-- Vote buttons if can vote -->
 								<span class="label label-choice" ng-if="!voted(solution.sid) && canaddsolution(floor.floorn)">
 									Vote :
 									<button type="button" class="btn btn-success btn-xs" ng-click="TotCtrl.voteSolution(solution.sid,2)"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i> Passed 1st try</button>
@@ -70,8 +78,9 @@
 								</span>
 							</span>
 							@endif
+							<!-- Solution details -->
 							<span class="label label-choice">x@{{solution.gamespeed}} Speed</span>
-							<span class="label label-warning" ng-if="solution.luck">Luck solution</span>
+							<span class="label label-warning" ng-if="solution.luck == true">Luck solution</span>
 							<span class="label label-choice" ng-if="solution.note">Note : @{{solution.note}}</span>
 						</div>
 						<!-- Unit Team -->

@@ -110,6 +110,9 @@ angular.module('saocr')
     }
     $scope.canaddsolution = function(floor){
       var can = false;
+      if (floor == 1) {
+        can = true;
+      }
       angular.forEach(totCtrl.currentRoundVotesSelf, function(value, key) {
         if ((value.floor == floor-1) && (value.votetype > 0)) {
           can = true;
