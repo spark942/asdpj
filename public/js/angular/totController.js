@@ -155,12 +155,8 @@ angular.module('saocr')
       });
 
       if (percent == 'no') {
-        if (returnSpecific===0) {
-          console.log(n,nAll);
-        }
         return n;
       } else {
-        //console.log(floor, solutionID, n,nAll);
         return (n/nAll)*100 <= 100 ? (n/nAll)*100 : 0;
       }
     }
@@ -235,7 +231,6 @@ angular.module('saocr')
         success(function(data, status, headers, config) {
           thisService.currentRoundVotesSelf = data['myroundvotes'];
           thisService.roundvotes = data['roundvotes'];
-          console.log(totCtrl.floors);
         }).
         error(function(data, status, headers, config) {
           console.log('error', status, headers, config);

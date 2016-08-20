@@ -77,9 +77,9 @@ class ToweroftrialController extends Controller {
 
     //dd($ENDTIME - $STARTIME);
     //dd($unitBook);
-    $_viewdata['roundvotes'] = json_encode($this->getRoundVotes($curRound));
+    $_viewdata['roundvotes'] = json_encode($this->getRoundVotes($curRound),JSON_NUMERIC_CHECK);
     if (Auth::check()) {
-      $_viewdata['myroundvotes'] = json_encode($this->getMyVotes($curRound));
+      $_viewdata['myroundvotes'] = json_encode($this->getMyVotes($curRound),JSON_NUMERIC_CHECK);
     }
     $_viewdata['unitbook_json'] = json_encode($unitBook);
     return view($_viewtype, $_viewdata);
@@ -307,7 +307,7 @@ class ToweroftrialController extends Controller {
       foreach ($solutionData as $sk => $sv) {
         if ($sv->floor == ($i+1)){
           $tmpSolution = [
-            'sid'      => $sv->sid,
+            'sid'      => intval($sv->sid),
             'karma'      => $sv->karma,
             'karmaMulti' => $sv->karmamultiplier,
             'maxrank'    => $sv->maxrank,
