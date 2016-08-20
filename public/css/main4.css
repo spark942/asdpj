@@ -202,6 +202,9 @@ header.container {
   border-radius: 10px;
   margin-left: 3px;
 }
+.floor-votes {
+  background-color: rgba(0,0,0,0.3);
+}
 /* New solution */
 button + .send-button{
   display: inline;
@@ -402,6 +405,15 @@ left: 0;
 }
 .solution-details{
   margin-left: 0;
+  margin-right: 0;
+}
+.solution-details .progress {
+  margin-bottom: unset;
+  margin: 5px 0 0 5px;
+}
+.solution-details .sr-only {
+  overflow: unset;
+  clip: unset;
 }
 .add-solution .label-choice,
 .solution-details .label-choice,

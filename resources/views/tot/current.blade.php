@@ -38,7 +38,8 @@
 				<!-- Floor number -->
 				Floor @{{floor.floorn}}
 				<!-- Floor:  number of votes -->
-				<span class="label label-default floor-info" ng-if="floor.solutions.length">@{{countvote(floor.floorn)}} votes</span>
+				<span class="label label-default floor-info floor-votes" ng-if="floor.solutions.length">
+					@{{countvote(floor.floorn)}} votes (<span class="text-success" style="color:#5cb85c;">@{{votebarDisplay(floor.floorn, null,2,'no')}}</span>-<span class="text-primary">@{{votebarDisplay(floor.floorn, null,1,'no')}}</span>-<span class="text-danger">@{{votebarDisplay(floor.floorn, null,0,'no')}}</span>)</span>
 				<!-- Floor: number of solutions -->
 				<span class="label floor-info" ng-class="{
 					'label-danger': floor.solutions.length == 0,
@@ -62,12 +63,31 @@
 							<!-- Logged: Show Solution points and vote options -->
 							<span class="label label-choice">@{{solution.karma | number:0}} pts</span>
 							<span class="pull-right">
+								<div class="progress" style="width: 100px;">
+								  <div ng-if="votebarDisplay(floor.floorn, solution.sid,2,'no') !== 0" class="progress-bar progress-bar-success" style="width: @{{votebarDisplay(floor.floorn, solution.sid,2)}}%">
+								    <span class="sr-only">@{{votebarDisplay(floor.floorn, solution.sid,2,'no')}}</span>
+								  </div>
+								  <div ng-if="votebarDisplay(floor.floorn, solution.sid,1,'no') !== 0" class="progress-bar progress-bar-primary" style="width: @{{votebarDisplay(floor.floorn, solution.sid,1)}}%">
+								    <span class="sr-only">@{{votebarDisplay(floor.floorn, solution.sid,1,'no')}}</span>
+								  </div>
+								  <div ng-if="votebarDisplay(floor.floorn, solution.sid,0,'no') !== 0" class="progress-bar progress-bar-danger" style="width: @{{votebarDisplay(floor.floorn, solution.sid,0)}}%">
+								    <span class="sr-only">@{{votebarDisplay(floor.floorn, solution.sid,0,'no')}}</span>
+								  </div>
+								</div>
+							</span>
+							<span class="pull-right">
 								<!-- Vote buttons if can vote -->
 								<span class="label label-choice" ng-if="!voted(solution.sid) && canaddsolution(floor.floorn)">
 									Vote :
-									<button type="button" class="btn btn-success btn-xs" ng-click="TotCtrl.voteSolution(solution.sid,2)"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i> Passed 1st try</button>
-									<button type="button" class="btn btn-primary btn-xs" ng-click="TotCtrl.voteSolution(solution.sid,1)"><i class="glyphicon glyphicon-minus" aria-hidden="true"></i> Passed after few tries</button>
-									<button type="button" class="btn btn-danger btn-xs" ng-click="TotCtrl.voteSolution(solution.sid,0)"><i class="glyphicon glyphicon-remove" aria-hidden="true"></i> Not pass</button>
+									<button type="button" class="btn btn-success btn-xs" ng-click="TotCtrl.voteSolution(solution.sid,2);toggle(floor.floorn,floor.isCollapsed)">
+										<i class="glyphicon glyphicon-ok" aria-hidden="true"></i> Passed 1st try
+										</button>
+									<button type="button" class="btn btn-primary btn-xs" ng-click="TotCtrl.voteSolution(solution.sid,1);toggle(floor.floorn,floor.isCollapsed)">
+										<i class="glyphicon glyphicon-minus" aria-hidden="true"></i> Passed after few tries
+										</button>
+									<button type="button" class="btn btn-danger btn-xs" ng-click="TotCtrl.voteSolution(solution.sid,0)">
+										<i class="glyphicon glyphicon-remove" aria-hidden="true"></i> Not pass
+										</button>
 								</span>
 								<!-- Voted -->
 								<span class="label label-choice" ng-if="voted(solution.sid)">

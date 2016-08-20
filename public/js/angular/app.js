@@ -42,7 +42,6 @@ angular.module('saocr')
     filters = filters || {};
     var filtered = [];
     angular.forEach(items, function(item) {
-      console.log(item.maxevol);
       if( (item.maxrank <= filters.maxrank) &&
           (item.maxevol <= filters.maxevol) &&
           (

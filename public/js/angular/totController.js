@@ -33,12 +33,12 @@ angular.module('saocr')
     };
 
     totCtrl.newsolution = [];
-    totCtrl.templateNewsolutionparams = {
+    totCtrl.templateNewsolutionparams = JSON.stringify({
       gamespeed: 2,
       luck: false,
       note: ""
-    };
-    totCtrl.newsolutionparams = totCtrl.templateNewsolutionparams;
+    });
+    totCtrl.newsolutionparams = JSON.parse(totCtrl.templateNewsolutionparams);
 
     totCtrl.roundvotes = window.roundvotes || {};
     totCtrl.currentRoundVotesSelf = window.myroundvotes || {};
@@ -99,16 +99,72 @@ angular.module('saocr')
       });
       return solutionType;
     };
-    $scope.countvote = function(floor){
-      floor = floor || 0;
+    $scope.countvote = function(floor, solutionID, specific){
+      floor = floor || null;
+      solutionID = solutionID || null;
+      specific = specific || null;
       var n = 0;
       angular.forEach(totCtrl.roundvotes, function(value, key) {
-        if (value.floor == floor) {
+        if (
+          (specific === null && value.floor == floor) ||
+          (specific === 0 && value.floor == floor && value.votetype == specific && (solutionID === null || (value.id == solutionID))) ||
+          (specific === 1 && value.floor == floor && value.votetype == specific && (solutionID === null || (value.id == solutionID))) ||
+          (specific === 2 && value.floor == floor && value.votetype == specific && (solutionID === null || (value.id == solutionID)))
+          ) {
           n++;
         }
       });
       return n;
     }
+
+    $scope.votebarDisplay = function(floor, solutionID, returnSpecific, percent) {
+      floor = floor || null;
+      solutionID = solutionID || null;
+      returnSpecific = (returnSpecific === undefined) ? null : returnSpecific;
+      percent = percent || null;
+      var n = 0, nAll = 0;
+      angular.forEach(totCtrl.roundvotes, function(value, key) {
+        if (floor == null) {
+          /* Round votes */
+          if (returnSpecific === null || (returnSpecific !== null && returnSpecific === value.votetype)){
+            n++;
+          }
+          if (returnSpecific !== null) {
+            nAll++;
+          }
+        } else if (floor !== null) {
+          /* Floor votes */
+          if (solutionID === null && floor == value.floor) {
+            /* Floor vote, non specific to a solution */
+            if (returnSpecific === null || (returnSpecific !== null && returnSpecific === value.votetype)){
+              n++;
+            }
+            if (returnSpecific !== null) {
+              nAll++;
+            }
+          } else if (solutionID !== null && solutionID == value.sid) {
+            /* Floor vote, specific to a solution */
+            if (returnSpecific === null || (returnSpecific !== null && returnSpecific === value.votetype)){
+              n++;
+            }
+            if (returnSpecific !== null) {
+              nAll++;
+            }
+          }
+        }
+      });
+
+      if (percent == 'no') {
+        if (returnSpecific===0) {
+          console.log(n,nAll);
+        }
+        return n;
+      } else {
+        //console.log(floor, solutionID, n,nAll);
+        return (n/nAll)*100 <= 100 ? (n/nAll)*100 : 0;
+      }
+    }
+
     $scope.canaddsolution = function(floor){
       var can = false;
       if (floor == 1) {
@@ -153,12 +209,11 @@ angular.module('saocr')
         };
         $http.post('/ajax/newsolution', newdata).
         success(function(data, status, headers, config) {
-          //console.log(data);
           thisService.floors = data['solutions'];
           thisService.currentRoundVotesSelf = data['myroundvotes'];
           thisService.roundvotes = data['roundvotes'];
           thisService.newsolution = [];
-          thisService.newsolutionparams = thisService.newsolutionparams;
+          thisService.newsolutionparams = JSON.parse(thisService.templateNewsolutionparams);
         }).
         error(function(data, status, headers, config) {
           console.log('error', status, headers, config);
@@ -178,10 +233,9 @@ angular.module('saocr')
         thisService.newsolution = [];
         $http.post('/ajax/votesolution', newdata).
         success(function(data, status, headers, config) {
-          console.log(data);
           thisService.currentRoundVotesSelf = data['myroundvotes'];
           thisService.roundvotes = data['roundvotes'];
-
+          console.log(totCtrl.floors);
         }).
         error(function(data, status, headers, config) {
           console.log('error', status, headers, config);
