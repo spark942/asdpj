@@ -33,11 +33,12 @@ angular.module('saocr')
     };
 
     totCtrl.newsolution = [];
-    totCtrl.newsolutionparams = {
+    totCtrl.templateNewsolutionparams = {
       gamespeed: 2,
       luck: false,
       note: ""
     };
+    totCtrl.newsolutionparams = totCtrl.templateNewsolutionparams;
 
     totCtrl.roundvotes = window.roundvotes || {};
     totCtrl.currentRoundVotesSelf = window.myroundvotes || {};
@@ -150,13 +151,14 @@ angular.module('saocr')
           solution: thisService.newsolution,
           solutionparams: thisService.newsolutionparams
         };
-        thisService.newsolution = [];
         $http.post('/ajax/newsolution', newdata).
         success(function(data, status, headers, config) {
           //console.log(data);
           thisService.floors = data['solutions'];
           thisService.currentRoundVotesSelf = data['myroundvotes'];
           thisService.roundvotes = data['roundvotes'];
+          thisService.newsolution = [];
+          thisService.newsolutionparams = thisService.newsolutionparams;
         }).
         error(function(data, status, headers, config) {
           console.log('error', status, headers, config);
